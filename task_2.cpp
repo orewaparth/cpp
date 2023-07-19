@@ -3,6 +3,6 @@ using namespace std;
 int main(){
     int a=5;
     cout<<a<<endl;
-    char ch ='f';
+    char ch ='h';
     cout<<ch;
 }
