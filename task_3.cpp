@@ -15,6 +15,9 @@ int main(){
    int z=ch;
    cout<<z<<endl;
 cout<<'a'<<endl;
+    int x;
+    x=cin.get();
+    cout<<x;
 
 
    
