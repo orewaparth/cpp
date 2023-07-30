@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 int main(){
-    /*to practice type casting*/
-    float n;
+    /*to practice type casting , cin,cin.get()*/
+   float n;
    int b = 'a';
    cout<< b << endl;
    cout<<"enter a float";
@@ -15,6 +15,11 @@ int main(){
    int z=ch;
    cout<<z<<endl;
 cout<<'a'<<endl;
+int x;
+cout<<"enter x";
+x=cin.get();
+cout<<x;
+
 
 
    
