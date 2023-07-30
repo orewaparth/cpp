@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-    /*to practice type casting*/
+    /*to practice type casting and to see use of cin and cin.get()*/
     float n;
    int b = 'a';
    cout<< b << endl;
