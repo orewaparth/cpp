@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+    <title>College Prediction</title>
+</head>
+    <link rel = "stylesheet" href ="style.css">
+<body>
+    <h1>College Prediction</h1>
+    <div class="container">
+        <p>Enter your JEE Mains Rank and Caste to predict eligible colleges:</p>
+        <form id="prediction-form">
+            <label for="jeeRank">JEE Mains Rank:</label>
+            <input type="number" id="jeeRank" required><br><br>
+            
+            <label for="caste">Caste:</label>
+            <select id="caste" required>
+                <option value="General">General</option>
+                <option value="OBC">OBC</option>
+                <option value="SC">SC</option>
+                <option value="ST">ST</option>
+            </select><br><br>
+            
+            <button type="button" onclick="predictColleges()">Predict Colleges</button>
+        </form>
+        
+        <div id="prediction-result"></div>
+        
+    </div>
+
+    <script src = "script.js"></script>
+    <div id="DISCLAMER">
+        <h1 style=" font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"  id="disc"> DISCLAMER</h1>
+        <p style=""></p>
+        <ul>
+            <li class="list" id="edu">
+                This website is for educational purposes only. It is not intended to be used for any other purpose.
+            </li>
+            <li class="list" >
+                FEMALE ONLY QUOTA NOT TAKEN INTO CONSIDERATION
+                
+            </li>
+            <br>
+            <LI class="list">
+                HOME STATE QUOTA NOT TAKEN INTO CONSIDERATION THE RANKS ARE WRT TO OPEN STATE QUOTA
+                <br>
+            </LI>
+            <br>
+            <LI class="list">
+                ALL COLLEGES ARE ESTABLISHMENT COLLEGES
+                
+            </LI>
+            <br>
+            <LI class="list">
+                ALL SC ,ST OBC CANDIDATES ARE REQUESTED TO ENTER THEIR CAST RANKS
+            </LI>
+        </ul>
+    </div>
+   
+    
+</body>
+</html>
