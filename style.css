@@ -1,0 +1,139 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            /* background-image: url("axes.jpg"); */
+        }
+        
+        h1 {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 24px;
+            position: relative;
+            top: 140px;
+        }
+        
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            transition: transform 0.3s ease-in-out;
+            box-shadow:  1px 1px 20px rgba(255, 255, 255, 0.999);
+            animation: fadeIn 1s ease-in-out;
+            position: relative;
+            top: 150px;
+           
+        }
+        
+        .container:hover {
+            transform: scale(1.05);
+        }
+        
+        label {
+            font-weight: bold;
+        }
+        
+        input[type="number"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            
+        }
+        select:hover{
+            transform: scale(1.05);
+        }
+        input:hover{
+            transform: scale(1.05);
+        }
+        button {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+            animation: fadeIn 1s ease-in-out;
+            
+        }
+        
+        button:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+        
+        #prediction-result {
+            margin-top: 20px;
+            font-weight: bold;
+            display: none;
+            animation: fadeIn 1s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        
+        /* Flashy animations for the prediction result */
+        .flash {
+            animation: flashColor 1s infinite alternate;
+        }
+        
+        @keyframes flashColor {
+            0% { background-color: #4CAF50; }
+            100% { background-color: #ff9800; }
+        }
+        #jeeRank{
+            width: 370px;
+            font-weight: bold;
+            animation: fadeIn 1s ease-in-out;
+        }
+        #caste{
+            animation: fadeIn 1s ease-in-out;
+        }
+        aside{
+            border:1px black solid ;
+            float: left;
+        }
+        img{
+           border-radius: 50%;
+           width: 50px;
+           height: 50px;
+        }
+        #DISCLAMER{
+            font-weight: bold;
+            animation: fadeIn 1s ease-in-out;
+            width: 400px;
+            float: right;
+            position: relative;
+            top: -200px;
+            right: 20px;
+            border: 1px black solid;
+            border-radius: 4px;
+        }
+            
+        
+        .list{
+         border: 1px solid whitesmoke;
+            background-color: #333;
+            margin-left: -05px;
+            width: 305px;
+        }
+        #edu{
+            margin-bottom: 15px;
+        }
+       #disc{
+        position: relative;
+        top: -5px;
+        right: 20px;
+        font-weight: bold;
+        animation: fadeIn 1s ease-in-out;
+       }
